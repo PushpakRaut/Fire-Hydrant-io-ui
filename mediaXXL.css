@@ -1,0 +1,111 @@
+@media (min-width: 1536px) { 
+    .navbar{
+        padding: 0 10rem;
+    }
+    .big-text h1 {
+        padding: 0rem 25rem;
+    }
+    .big-text p {
+        padding: 0 20rem;
+    }
+    .big-image{
+        padding: 0 7rem;
+    }
+    .big-image .top-image-left {
+        left: 2.5rem;
+    }
+    .big-image .top-image-right {
+        right: 9rem;
+    }
+    .company-slider-box .content-wrapper .top-box-image img {
+        right: 11.5rem;
+    }
+    .big-image .side-image-right {
+        right: 8rem;
+    }
+    .company-slider-box {
+        padding: 0.5rem 6.5rem;
+    }
+    .tools{
+        padding: 0 10rem;
+    }
+    .tools .boxes-image {
+        top: -5rem;
+        right: 9rem;
+    }
+    .seam {
+        padding: 0 5rem;
+    }
+    .seam-logos {
+        justify-content: center;
+    }
+    .seam-background {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .platform{
+        padding: 0 8rem;
+        padding-top: 5rem;
+    }
+    /* .platform-content {
+        padding: 0 10rem;
+    } */
+    .platform h2 {
+        padding-right: 14rem;
+    }
+    .platform-flex .image-platform {
+        margin-right: 10rem;
+    }
+    .platform-background .background-bottom-box {
+        right: 1rem;
+    }
+    .line-wrapper .dash {
+        height: 15rem;
+    }
+    .platform-flex .image-platform {
+        margin-right: 4rem;
+    }
+    .trust{
+        padding: 0 8rem;
+        padding-top: 5rem;
+    }
+    .fans{
+        padding: 0 6rem;
+        padding-top: 5rem;
+    }
+    .fans-background .text-content p {
+        padding: 0px 19rem;
+    }
+    .api {
+        padding: 0 9rem;
+        padding-top: 5rem;
+    }
+    .operators-content {
+        padding: 0 25.5rem;
+    }
+    .cards{
+        padding: 0 10rem;
+    }
+    .footer-content{
+        padding: 0 20rem;
+    }
+    .footer .left-top {
+        left: 6rem;
+    }
+    .footer-content .right-bottom {
+        right: 8rem;
+    }
+    .border {
+        padding: 0 7rem;
+    }
+    .rights {
+        padding: 0 7rem;
+    }
+    .chat{
+        width: 4rem;
+        height: 4rem;
+    }
+    .chat img{
+        width: 2rem;
+    }
+}

@@ -1,0 +1,210 @@
+@media (min-width: 1280px) { 
+    .navbar{
+        padding: 0 2rem;
+    }
+    .navbar .hamburger{
+        display: none;
+    }
+    .buttons-right-nav button.createAC{
+        margin-right: 0;
+    }
+    .right-nav .nav-link-xl-block{
+        display: block;
+        overflow: hidden;
+    }
+    .right-nav .nav-link-xl-block .nav-link-xl{
+        display: flex;
+        overflow: hidden;
+    }
+    .nav-link-xl .products-xl,
+    .nav-link-xl .resources-xl,
+    .nav-link-xl .company-xl{
+        display: flex;
+        align-items: center;
+    }
+    .products-xl a,
+    .resources-xl a,
+    .company-xl a{
+        margin-right: 0.5rem;
+        color: #000;
+    }
+    .how-it-works-xl a,
+    .pricing-xl a{
+        color: #000;
+    }
+    .products-xl,
+    .how-it-works-xl,
+    .pricing-xl,
+    .resources-xl,
+    .company-xl{
+        margin-right: 2rem;
+    }
+
+    .nav-link-xl .products-xl-menu,
+    .nav-link-xl .resources-xl-menu,
+    .nav-link-xl .company-xl-menu{
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        display: none;
+        transform: translateY(50%);
+        transition: all .5s ease-in-out;
+        padding: 0.5rem 2.3rem;
+        background-color: #fff;
+        width: 100%;
+        box-shadow: 0px 8px 16px rgba(0,0,0,0.05);
+        overflow: hidden;
+    }
+    .nav-link-xl .products-xl-menu.open,
+    .nav-link-xl .resources-xl-menu.open,
+    .nav-link-xl .company-xl-menu.open{
+        display: block;
+        transform: translateY(0);
+    }
+    .products-xl-menu span,
+    .resources-xl-menu span,
+    .company-xl-menu span{
+        font-size: 0.8rem;
+        color: #8a8a8a;
+    }
+    .products-xl-menu .products-menu,
+    .resources-xl-menu .resource-menu{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+    }
+    .company-xl-menu .company-menu{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .products-menu,
+    .resource-menu,
+    .company-menu{
+        margin: 1rem 0;
+    }
+
+    .products-menu a,
+    .resource-menu a,
+    .company-menu a{
+        display: flex;
+        align-items: center;
+    }
+    .products-menu a .image-box,
+    .resource-menu a .image-box,
+    .company-menu a .image-box{
+        align-self: flex-start;
+        margin-right: 0.5rem;
+    }
+    .products-menu a .image-box .image,
+    .resource-menu a .image-box .image,
+    .company-menu a .image-box .image{
+        width: 2.2rem;
+        height: 2.2rem;
+        background-color: #eef1f6;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .products-menu a .image-box .image img,
+    .resource-menu a .image-box .image img,
+    .company-menu a .image-box .image img{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .products-menu a .text,
+    .resource-menu a .text,
+    .company-menu a .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 100%;
+    }
+    .products-menu a .text .sub-heading,
+    .resource-menu a .text .sub-heading,
+    .company-menu a .text .sub-heading{
+        font-size: 0.9rem;
+        color: #000;
+        font-weight: 500;
+    }
+    .products-menu a .text .para,
+    .resource-menu a .text .para,
+    .company-menu a .text .para{
+        font-size: 0.8rem;
+        color: #858585;
+        margin-top: 0.5rem;
+    }
+
+
+    .big-text h1 {
+        padding: 1rem 19rem;
+    }
+    .big-text p {
+        padding: 0 14rem;
+    }
+    .big-image .top-image-right{
+        right: 1rem;
+    }
+
+    .seam .seam-background p {
+        padding-right: 50rem;
+    }
+    .platform h2 {
+        padding-right: 17rem;
+    }
+
+    .image-platform img {
+        width: 39rem;
+    }
+    .image-platform img.platform-image-top {
+        width: 34rem;
+    }
+    .image-platform img.platform-image-bottom {
+        width: 34rem;
+    }
+    .platform-flex .image-platform.runbook_screen {
+        margin-right: 5rem;
+        z-index: 11;
+    }
+    .image-platform img.runbok_img_screen {
+        width: 35rem;
+    }
+    .image-platform img.incident-com {
+        width: 37rem;
+    }
+
+    .fans-background .text-content p {
+        padding: 0px 16rem;
+    }
+    .fans .fans-background .top-right {
+        top: 9rem;
+    }
+    .testimonial-slider {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+    }
+    .api .api-screen {
+        height: 11.5rem;
+    }
+
+    .operators-content {
+        padding: 0 19.5rem;
+    }
+    .cards {
+        grid-gap: 4rem;
+    }
+  
+    .footer-content {
+        padding: 0 12.5rem;
+        margin-bottom: 10rem;
+    }
+
+    .footer-links {
+        justify-content: space-around;
+    }
+    .footer-links .grid-links {
+        grid-gap: 5rem;
+    }
+}

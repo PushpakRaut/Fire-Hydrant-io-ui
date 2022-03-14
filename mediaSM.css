@@ -1,0 +1,70 @@
+@media (min-width: 640px) { 
+    
+    
+    .big-text h1{
+        font-weight: 600;
+    }
+    .big-text .big-buttons{
+        flex-direction: row;
+    }
+    .big-text .big-buttons a button{
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+    .company-slider-box .slider-box-text{
+        font-size: 1.1rem;
+    }
+    .company-slider-box .slider-box-text p a i{
+        margin-left: 1rem;
+    }
+    .tools .boxes-image{
+        right: 1rem;
+        width: 9rem;
+    }
+    .tools .heading span{
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    .seam .seam-background .top-boxes{
+        width: 4.5rem;
+    }
+    .seam .seam-background p{
+        padding: 0 9rem;
+        font-weight: 600;
+    }
+    .platform .platform-heading span{
+        font-size: 1rem;
+    }
+    .trust .trust-heading span{
+        font-size: 1rem;
+    }
+    .trust-image{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .left p{
+        font-size: 1.5rem;
+    }
+    .fans-background .text-content p{
+        font-size: 1rem;
+    }
+    .api .api-screen{
+        height: 10rem;
+    }
+    .api-screen img{
+        top: -2rem;
+    }
+    .operators h2{
+        font-size: 2.4rem;
+    }
+    .cards .left-card img,
+    .cards .right-card img{
+        width: 55%;
+    }
+    .search .input {
+        width: 50%;
+    }
+    .rights .pages{
+        justify-content: center;
+    }
+}

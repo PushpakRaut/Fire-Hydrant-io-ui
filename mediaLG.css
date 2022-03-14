@@ -1,0 +1,209 @@
+@media (min-width: 1024px) { 
+
+
+    .big-text h1{
+        padding: 1rem 7rem;
+    }
+    .big-text p{
+        padding: 0 5rem;
+    }
+    .big-image .top-image-left{
+        left: -1.5rem;
+    }
+    .big-image .top-image-left img{
+        height: 14rem;
+        width: 14rem;
+    }
+    .big-image .top-image-right{
+        right: 0rem;
+    }
+
+    .company-slider-box .content-wrapper .top-box-image img {
+        top: -4rem;
+        right: 2.5rem;
+        width: 7rem;
+        height: 7rem;
+    }
+    .big-image .side-image-right{
+        display: block;
+        position: absolute;
+        bottom: 8rem;
+        right: 1rem;
+    }
+    .big-image .side-image-right img{
+        width: 4rem;
+    }
+    .company-slider-box .slider-box-bottom-image {
+        bottom: 2rem;
+    }
+    .tools .boxes-image {
+        width: 12rem;
+        top: 1rem;
+    }
+    .tools .heading{
+        font-size: 1.3rem;
+    }
+    .tools h2 {
+        font-size: 2.5rem;
+        padding: 0 16rem 0 0;
+    }
+    .seam .seam-background p {
+        padding-right: 30rem;
+    }
+    .seam .seam-background .top-boxes {
+        width: 9rem;
+        right: 6.5rem;
+    }
+    .seam-logos .seam-wrapper {
+        padding: 0 0.8rem;
+    }
+    .seam-logo .logo-image {
+       width: 7rem;
+       height: 7rem;
+    }
+    .seam-logo .logo-image img{
+        width: 5rem;
+    }
+    .platform .platform-heading{
+        font-size: 1.3rem;
+    }
+    .platform h2{
+        padding-right: 9rem;
+    }
+    .platform-background .platform-padding {
+        padding: 0 2rem;
+    }
+    .image-platform img {
+        width: 32rem;
+    }
+    .image-platform img.platform-image-top {
+        top: -4rem;
+        width: 29rem;
+    }
+    .image-platform img.platform-image-bottom {
+        bottom: 5rem;
+        width: 29rem;
+    }
+    .platform-padding .platform-image-text.incident-mng-group{
+        margin-bottom: 5rem;
+    }
+    .line-wrapper .dash{
+        height: 13rem;
+        position: relative;
+        left: 2rem;
+    }
+    .image-platform img.runbok_img_screen{
+        width: 28rem;
+    }
+    .platform-image-text .platform-flex{
+        align-items: center;
+    }
+    .image-platform img.runbooks_left_box{
+        bottom: -1rem;
+        left: -1.5rem;
+        width: 5rem;
+    }
+    .image-platform img.runbooks_right_box{
+        top: 11rem;
+    }
+    .platform-padding .platform-image-text.runbook-group{
+        margin-bottom: 0rem;
+    }
+    .image-platform img.catlog-bottom-box {
+        bottom: 0.5rem;
+        right: -0.2rem;
+        width: 6rem;
+    }
+    .image-platform img.incident-com {
+        width: 28rem;
+    }
+    .image-platform img.incident-communication-top-box {
+        width: 5.5rem;
+        top: -3rem;
+        left: -1.5rem;
+    }
+    .platform-background .background-bottom-box {
+        right: -3rem;
+    }
+    .platform-background .background-bottom-box img {
+        width: 9rem;
+    }
+    .trust .trust-image {
+        width: 51rem;
+        padding: 2rem 3rem;
+    }
+    .trust-image .left p {
+        font-size: 1.3rem;
+    }
+    .trust-image .right p {
+        font-size: 1rem;
+    }
+    .trust h2 {
+        padding-right: 6rem;
+    }
+
+    .fans .fans-background {
+        padding-top: 4rem;
+    }
+    .fans .fans-background .top-left {
+        width: 8rem;
+        top: 4.5rem;
+        left: 2.5rem;
+    }
+    .fans-background .text-content p {
+        padding: 0px 8rem;
+        z-index: 11;
+    }
+    .fans .fans-background .top-right {
+        width: 10rem;
+        top: 6rem;
+        right: 1rem;
+    }
+
+
+    .api .api-screen {
+        width: 94rem;
+        height: 10.5rem;
+    }
+    .api-screen img {
+        top: -1.9rem;
+    }
+
+    .operators-content {
+        padding: 0 9.5rem;
+    }
+
+
+    .footer .left-top {
+        left: 0rem;
+        width: 9rem;
+        top: 11rem;
+    }
+    .footer {
+        padding-top: 12rem;
+    }
+    .footer-content {
+        padding: 0 6.5rem;
+        margin-bottom: 10rem;
+    }
+    .footer-content .right-bottom {
+        bottom: -1rem;
+        right: 2rem;
+        width: 17rem;
+    }
+    .footer-links {
+        flex-direction: row;
+    }
+    .footer-links .search {
+        margin-top: 0rem;
+    }
+    .search label {
+        font-size: 0.85rem;
+    }
+    .search .input {
+        width: 100%;
+    }
+    .search .input i{
+        font-size: 0.8rem;
+    }
+}

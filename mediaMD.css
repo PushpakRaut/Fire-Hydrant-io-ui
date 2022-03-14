@@ -1,0 +1,374 @@
+@media (min-width: 768px) { 
+    .right-nav{
+        display: flex;
+        align-items: center;
+    }
+    .right-nav .buttons-right-nav{
+        display: block;
+    }
+    .buttons-right-nav button{
+        padding: 0.8rem;
+        outline: none;
+        font-size: 0.9rem;
+        cursor: pointer;
+    }
+    .buttons-right-nav button.signIn{
+        background: transparent;
+        margin-right: 1rem;
+        border: 0;
+        color: #182042;
+
+    }
+    .buttons-right-nav button.createAC{
+        border: 0;
+        padding: 0.8rem 2rem;
+        border-radius: 5px;
+        margin-right: 2rem;
+        background-color: #182042;
+        color: #fff;
+    }
+
+    .buttons-wrapper{
+        display: none;
+    }
+
+    .big-text .big-buttons{
+        z-index: 111;
+    }
+    .big-text .big-buttons a button{
+        z-index: 11;
+    }
+    
+    .big-image .image{
+        padding-top: 1.5rem;
+        z-index: 11;
+    }
+    .big-image .top-image-left{
+        left: 0.5rem;
+        z-index: -1;
+        top: -6rem;
+    }
+    .big-image .top-image-left img{
+        height: 10rem;
+        width: 10rem;
+        z-index: -1;
+    }
+    .big-image .top-image-right img{
+        height: 10rem;
+        width: 10rem;
+        z-index: -1;
+    }
+    .big-image .top-image-right{
+        right: 0.2rem;
+        z-index: -1;
+        top: -3rem;
+    }
+
+
+    .company-slider-box .content-wrapper .top-box-image img{
+        top: -1rem;
+        right: 5rem;
+        z-index: 11;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .tools .boxes-image{
+        width: 6rem;
+        top: -1rem;
+        right: 2rem;
+    }
+    
+    .tools h2{
+        font-size: 2rem;
+    }
+
+    .tools-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .seam{
+        padding: 0 1rem;
+    }
+    .seam .seam-background .top-boxes{
+        width: 10rem;
+        top: 2rem;
+        right: 2.5rem;
+    }
+    .seam-background{
+        padding-top: 2rem;
+    }
+    .seam .seam-background p{
+        text-align: left;
+        padding: 0 1rem;
+        padding-right: 7rem;
+    }
+    .seam .seam-background span{
+        justify-content: flex-start;
+        padding: 0 1rem;
+    }
+    
+    .platform .platform-background{
+        padding: 12rem 0 0 0;   
+    }
+    .platform-background .top-box-image{
+        width: 7rem;
+        top: 2.5rem;
+        left: 0;
+    }
+    .platform-text{
+        display: none;
+    }
+    .platform-padding .platform-image-text{
+        display: block;
+        margin-bottom: 2rem;
+    }
+    .platform-image-text .platform-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .platform-flex .image-platform{
+        /* display: inline-block; */
+        margin-right: 1rem;
+        position: relative;
+    }
+    .platform-flex .image-platform.runbook_screen{
+        margin-right: 3rem;
+        z-index: 11;
+    }
+    .platform-flex .image-platform.service_screen{
+        top: -2rem;
+        z-index: 11;
+    }
+    .platform-flex .image-platform.incident-com-screen{
+        top: -2rem;
+        z-index: 11;
+        margin-right: 3rem;
+    }
+    .image-platform.incident-mng-screen{
+        top: 3rem;
+    }
+    .image-platform img{
+        /* width: 100%; */
+        width: 24rem;
+        /* height: 100%; */
+    }
+    .image-platform img.runbok_img_screen{
+        width: 22rem;
+        z-index: 11;
+    }
+    .image-platform img.platform-image-top{
+        position: absolute;
+        top: -1.5rem;
+        right: -1rem;
+        width: 22rem;
+    }
+    
+    .image-platform img.platform-image-bottom{
+        position: absolute;
+        bottom: 7rem;
+        right: -1rem;
+        width: 22rem;
+    }
+    .image-platform img.runbooks_left_box{
+        position: absolute;
+        bottom: 0rem;
+        left: -0.5rem;
+        width: 4rem;
+        z-index: -1;
+    }
+    .image-platform img.runbooks_right_box{
+        position: absolute;
+        top: 5rem;
+        right: -2.5rem;
+        width: 4rem;
+    }
+    .image-platform img.catlog-bottom-box{
+        position: absolute;
+        bottom: -2rem;
+        right: 0;
+        width: 5rem;
+        z-index: -1;
+    }
+    .image-platform img.incident-com{
+        width: 22rem;
+    }
+    .image-platform img.incident-communication-top-box{
+        position: absolute;
+        width: 6rem;
+        top: -5rem;
+        left: -2rem;
+        z-index: -1;
+    }
+    .text-platform .image-container{
+        display: flex;
+        align-items: center;
+    }
+    .text-platform .image-container .image-wrapper{
+        width: 3rem;
+        height: 3rem;
+        background-color: #dda006;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1rem;
+    }
+    .text-platform .image-container .image-wrapper.second{
+        background-color: #b1a5e2;
+    }
+    .text-platform .image-container .image-wrapper.third{
+        background-color: #fe9862;
+    }
+    .text-platform .image-container .image-wrapper.last{
+        background-color: #80a5f7;
+    }
+    .text-platform .image-container .text{
+        color: #eef1f6;
+        font-weight: 500;
+        letter-spacing: 0.1rem;
+    }
+    .text-platform h4{
+        color: white;
+        margin: 1.5rem 0;
+        font-size: 1.5rem;
+    }
+    .text-platform p{
+        color: rgba(198,208,226,1);
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin: 1.5rem 0;
+    }
+    .text-platform p a{
+        color: rgba(45,166,242,1);
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+    }
+    .text-platform p a i{
+        margin-left: 1rem;
+    }
+    .platform-padding .verticle-line{
+        display: block;
+        margin-bottom: 2rem;
+    }
+    .verticle-line .line-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    .line-wrapper .dash{
+        width: 1px;
+        height: 10rem;
+        background-color: #fff;
+        opacity: 0.4;
+    }
+    .platform-background .background-bottom-box{
+        position: absolute;
+        bottom: 3rem;
+        right: -1rem;
+    }
+    .platform-background .background-bottom-box img{
+        width: 6rem;
+    }
+
+
+    .trust{
+        display: flex;
+        align-items: center;
+    }
+    .trust .trust-content{
+        margin-right: 1rem; 
+    }
+    .trust .trust-image{
+        width: 46rem;
+    }
+    .trust-image .left p{
+        font-size: 1rem;
+    }
+    .trust-image .right{
+        margin-left: 0.5rem;
+    }
+    .trust-image .right p{
+        font-size: 0.8rem;
+    }
+    .fans{
+        padding: 0 1rem;
+        padding-top: 6rem;
+    }
+
+    .fans .fans-background{
+        padding-top: 5rem;
+    }
+    .fans .fans-background .top-left{
+        width: 6rem;
+        top: 3.5rem;
+        left: 5.5rem;
+    }
+    .fans .fans-background .top-right{
+        width: 5rem;
+        top: 10rem;
+        right: 2rem;
+    }
+    .fans-background .text-content p{
+        padding: 0 6rem;
+    }
+    
+    .fans-background .text-content .button button{
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        border-radius: 8px;
+    }
+    .api{
+        display: flex;
+        align-items: center;
+    }
+    .api .api-content{
+        margin-right: 1rem;
+    }
+    .api .api-screen{
+        margin-top: 0;
+        margin-right: 1rem;
+        width: 60rem;
+        height: 5.5rem;
+    }
+    .api-screen img{
+        left: 1rem;
+        transform: translateX(0);
+        top: -0.9rem;
+        width: 100%;
+    }
+
+    .operators-content{
+        padding: 0 1.5rem;
+    }
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+    }
+    .cards .left-card{
+        margin-bottom: 0;
+    }
+
+    .footer .left-top{
+        left: -1.1rem;
+        width: 4.5rem;
+    }
+    .footer-content{
+        padding: 0 2.5rem;
+        margin-bottom: 15rem;
+    }
+    .footer-content .right-bottom{
+        bottom: -7rem;
+    }
+    .footer-links .grid-links{
+        grid-template-columns: repeat(4, 1fr);
+        padding: 0 2rem;
+    }
+    .rights{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
