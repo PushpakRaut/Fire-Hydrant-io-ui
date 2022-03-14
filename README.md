@@ -1,7 +1,7 @@
 # FireHydrant Website UI
 
 ## Live Demo of website:
-ttps://firehydrant-web-ui-clone.netlify.app
+https://firehydrant-web-ui-clone.netlify.app
 
 ## Connect with me:
 https://www.linkedin.com/in/pushpak-raut-075738170/
