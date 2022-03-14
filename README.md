@@ -1,7 +1,7 @@
-# Portfolio-Website-using-Sass
+# FireHydrant Website UI
 
 ## Live Demo of website:
-https://codesmoker1899.github.io/Portfolio-Website-using-Sass/
+ttps://firehydrant-web-ui-clone.netlify.app
 
 ## Connect with me:
 https://www.linkedin.com/in/pushpak-raut-075738170/
